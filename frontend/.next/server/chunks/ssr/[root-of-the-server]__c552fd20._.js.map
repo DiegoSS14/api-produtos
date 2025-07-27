@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/sousa/workspace/Exercicios/Desafios%20T%C3%A9cnicos/vaga%20dev%20jr%20b4you/api-produtos/frontend/src/app/login/page.tsx"],"sourcesContent":["export default function Login() {\r\n    return(\r\n        <div>\r\n            <h1>Página Login</h1>\r\n        </div>\r\n    );\r\n}"],"names":[],"mappings":";;;;;AAAe,SAAS;IACpB,qBACI,8OAAC;kBACG,cAAA,8OAAC;sBAAG;;;;;;;;;;;AAGhB","debugId":null}}]
-}
