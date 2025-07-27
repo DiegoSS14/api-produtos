@@ -1,0 +1,28 @@
+#1 Configuração inicial
+npm init -y === Inicia o projeto node
+npm install express === Instala o expressjs biblioteca back-end
+npm install nodemon -D === Instala o nodemon para atualizar o projeto em tempo real o -D é porque ele é apenas uma dependência de desenvolvimento, não vai para o projeto final.
+npm install dotenv === Para acessar o arquivo .env com as informações do banco de dados.
+npx eslint --init === Padroniza a escrita do projeto para deixar mais organizado.
+
+#2 Rotas
+Configurando rotas com o router do express.
+
+# Banco de dados
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql
+Criei um container Docker com a imagem do mysql na porta 3306 do Docker sendo espelhada na porta 3306 do meu localhost.
+criação do banco de dados com scripts no DBaver.
+Teste de requisição GET
+
+# Criação do CRUD (Endpoints/rotas)
+
+# Adicionando Sequelize e Sequelize-cli
+- Instalação: 
+  npm install sequelize mysql2
+  npm install --save-dev sequelize-cli
+
+- Conferindo:
+  npx sequelize-cli --version
+
+- Criando estrutura do sequelize:
+  npx sequelize-cli init

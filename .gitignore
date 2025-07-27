@@ -1,0 +1,11 @@
+# Diretórios de dependências
+backend/node_modules/
+frontend/node_modules/
+
+# Arquivos de ambiente
+backend/.env
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+frontend/.env.test
